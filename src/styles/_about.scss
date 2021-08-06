@@ -1,0 +1,119 @@
+.ImageSection {
+  display: flex;
+  margin-top: 5.6rem;
+  margin-bottom: 4rem;
+
+  .img {
+    width: 100%;
+    height: 50vh;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .about-info {
+    margin-left: 2rem;
+
+    h4 {
+      font-size: 2rem;
+    }
+
+    .about-text {
+      padding: 1rem 0;
+    }
+  }
+}
+
+.about-details {
+  display: flex;
+
+  p {
+    padding: 0.3rem 0;
+    text-align: center;
+  }
+
+  .right-section {
+    margin-left: 2.3rem;
+  }
+}
+
+.btn {
+  padding: 0.7rem 2rem;
+  background-color: #037fff;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0.3rem;
+    left: 0;
+    bottom: 0;
+    background-color: #a4acc4;
+    transition: all 0.4s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.skill-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  margin: 4rem 0;
+}
+
+.btn-port {
+  padding: 0.6rem 1rem;
+  background-color: #0381ff5b;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    background-color: #037fff;
+  }
+
+  &:active {
+    background-color: #037fff;
+  }
+
+  &:focus {
+    background-color: #037fff;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //margin: 4rem 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}

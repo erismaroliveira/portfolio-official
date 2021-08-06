@@ -1,0 +1,48 @@
+.HomePage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 3.6rem;
+
+  span {
+    color: #037fff;
+  }
+}
+
+.h-sub-text {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+
+  .icon-holder {
+    margin-right: 1rem;
+
+    .icon {
+      font-size: 2.8rem;
+      color: #a4acc4;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .ig:hover {
+      color: #c22967;
+    }
+    .gh:hover {
+      color: #7339d6;
+    }
+    .yt:hover {
+      color: #fe0002;
+    }
+  }
+}

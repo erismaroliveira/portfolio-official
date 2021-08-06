@@ -1,0 +1,39 @@
+@import "./styles/about";
+@import "./styles/blogs";
+@import "./styles/contact";
+@import "./styles/layouts";
+@import "./styles/typography";
+@import "./styles/navbar";
+@import "./styles/skill";
+@import "./styles/services";
+@import "./styles/portfolios";
+@import "./styles/title";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0056d898;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #777;
+}
+
+body {
+  color: #a4acc4;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 1.2rem;
+}
+
+span {
+  color: #037fff;
+}
